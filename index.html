@@ -1,145 +1,32 @@
-<!DOCTYPE html><html lang="id"><head><base target="_top"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>E-Supervisi</title><link rel="preconnect" href="https://cdn.tailwindcss.com"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><style type="text/tailwindcss">body{font-family:"Plus Jakarta Sans",sans-serif}.in{@apply w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400}.btn{@apply bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg px-4 py-2 text-sm font-medium}@media print{.np{display:none!important}}</style><style>
-@keyframes ldm{to{background-position:200% 0}}[data-card]{content-visibility:auto;contain-intrinsic-size:auto 130px}
-body{background:#f1f5f9;color:#0f172a}.card{background:#fff;border:1px solid #e2e8f0;border-radius:1.25rem}.card2{background:#f8fafc;border:1px solid #e2e8f0;border-radius:1rem}
-body.dk{background:radial-gradient(1100px 600px at 15% -10%,#22308a66,transparent),linear-gradient(160deg,#0b1230,#0f1a40 60%,#0a1026)!important;background-attachment:fixed!important;color:#e2e8f0}
-.dk .card,.dk .bg-white{background:rgba(255,255,255,.06)!important;border:1px solid rgba(255,255,255,.1)!important}
-.dk .card{border-radius:1.5rem}
-.dk .card2{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:1rem}
-.dk .bg-white\/90,.dk .bg-slate-100\/90{background:rgba(11,18,48,.9)!important}
-.dk .bg-slate-50,.dk .bg-slate-100{background:rgba(255,255,255,.04)!important}
-.dk .bg-slate-200{background:rgba(255,255,255,.14)!important}
-.dk .bg-indigo-50{background:rgba(99,102,241,.2)!important}
-.dk .bg-indigo-100{background:rgba(99,102,241,.35)!important}
-.dk .bg-violet-100{background:rgba(139,92,246,.35)!important}
-.dk .text-indigo-800,.dk .text-indigo-700,.dk .text-violet-700{color:#c7d2fe!important}
-.dk .text-indigo-600{color:#a5b4fc!important}
-.dk .text-slate-500,.dk .text-slate-600{color:#94a3b8!important}
-.dk .text-slate-400{color:#8a9bc0!important}
-.dk .border-slate-100,.dk .border-slate-200,.dk .border-t,.dk .border{border-color:rgba(255,255,255,.12)!important}
-.dk .in{background:rgba(255,255,255,.07)!important;border-color:rgba(255,255,255,.18)!important;color:#e2e8f0!important}
-.dk select.in option{color:#0f172a}
-.dk header{background:rgba(255,255,255,.05)!important;backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.1);box-shadow:none!important}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.lc{background:#fff!important;color:#0f172a!important}
-.lc .in{background:#fff!important;color:#0f172a!important;border-color:#cbd5e1!important}
-@media print{body,body.dk{background:#fff!important;color:#000}.card,.card2,.bg-white{background:#fff!important}*{color:#000!important}}
+    <title>E-RAPOR SMP IT AL MUBAROK</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <meta name="description" content="Sistem E-Rapor Tahfidz SMP IT Al Mubarok Kras Kediri.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eraportahfidz.smpitalmubarok.sch.id/">
+    <meta property="og:title" content="E-Rapor SMP IT AL MUBAROK">
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #ffffff; }
+        iframe { border: none; width: 100%; height: 100%; }
+    </style>
+</head>
+<body>
+    <script>
+        const URL_PARAMETER = window.location.search;
 
-/* ===== POLES TAMPILAN ===== */
-html{scroll-behavior:smooth}
-@keyframes fi{from{opacity:0;transform:translateY(6px)}}
-main{animation:fi .25s ease both}
-button,.card{transition:background .15s,box-shadow .15s,transform .1s,border-color .15s}
-button:active{transform:scale(.97)}
-.card{box-shadow:0 1px 2px rgba(15,23,42,.04),0 8px 24px -10px rgba(15,23,42,.12)}.dk .card{box-shadow:none}
-select.in{appearance:none;-webkit-appearance:none;padding-right:2.25rem;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%2364748b'%3E%3Cpath d='M5 7l5 6 5-6z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .75rem center;background-size:1rem}
-.dk select.in{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%2394a3b8'%3E%3Cpath d='M5 7l5 6 5-6z'/%3E%3C/svg%3E")!important;background-repeat:no-repeat!important;background-position:right .75rem center!important;background-size:1rem!important}
-.in:focus{box-shadow:0 0 0 3px rgba(99,102,241,.22)}
-tbody tr{transition:background .12s}tbody tr:hover{background:rgba(99,102,241,.07)}
-input.peer:checked+span{transform:scale(1.1);box-shadow:0 4px 12px -2px rgba(0,0,0,.28)}
-label.cursor-pointer:hover span{border-color:#818cf8}
-#t{left:50%;right:auto!important;bottom:5rem!important;transform:translateX(-50%);border-radius:.9rem;font-size:.85rem;font-weight:600;background:#047857;box-shadow:0 10px 30px -8px rgba(0,0,0,.4);animation:fi .2s ease both}#t[data-k=e]{background:#be123c}
-@media(max-width:767px){.in{font-size:16px}main{padding:1rem}}
-summary.gh{list-style:none;cursor:pointer}summary.gh::-webkit-details-marker{display:none}summary.gh:hover{filter:brightness(.97)}
-.chv{display:inline-block;transition:transform .2s}details[open]>summary .chv{transform:rotate(90deg)}details.grp{scroll-margin-top:5rem}
-</style></head>
-<body><div id="ld" class="fixed top-0 inset-x-0 h-1 z-50 np" style="opacity:0;transition:opacity .2s;background:linear-gradient(90deg,#6366f1,#a78bfa,#34d399,#6366f1);background-size:200%;animation:ldm 1s linear infinite"></div><div id="app"></div><div id="t" class="hidden fixed bottom-4 right-4 bg-slate-900 text-white px-4 py-2 rounded-lg np"></div>
-<script>
-let TK='',ME,INS,CUR,TAB='pra';
-const $=s=>document.querySelector(s),E=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let LN=0,UC,HC,RT,MJ;const ld=d=>{LN+=d;$('#ld').style.opacity=LN>0?1:0};
-const rpc=(a,p,q)=>new Promise((ok,no)=>{if(!q)ld(1);google.script.run.withSuccessHandler(r=>{if(!q)ld(-1);r.ok?ok(r.d):no(r.e)}).withFailureHandler(e=>{if(!q)ld(-1);no(e.message)}).api(a,TK,p||{})});
-const RN={admin:'Admin',pengawas:'Pengawas',kepsek:'Kepala Sekolah',guru:'Guru'},HL={admin:'Semua Supervisi',pengawas:'Supervisi Saya',kepsek:'Laporan Supervisi Sekolah',guru:'Hasil Supervisi Saya'};
-const ed=()=>ME.role=='admin'||ME.role=='pengawas';
-let TT;const toast=m=>{const t=$('#t');t.textContent=m;t.dataset.k=m[0]=='⚠'?'e':'o';t.classList.remove('hidden');clearTimeout(TT);TT=setTimeout(()=>t.classList.add('hidden'),m[0]=='⚠'?4500:2500)};
-const B=f=>{let b=0;return async(...a)=>{if(b)return;b=1;try{return await f(...a)}catch(e){toast('⚠ '+e)}finally{b=0}}};
-const NV=()=>[['h','🏠 Beranda','home()'],...(ed()?[['n','＋ Supervisi Baru','newSv()']]:[]),...(ME.role=='admin'?[['u','👥 Pengguna','users()']]:[])];
-let TH=0;const thm=()=>{TH=!TH;document.body.className=TH?'dk':''};
-function shell(h,act){const nv=NV().map(([k,l,f])=>`<button onclick="${f}" class="text-left rounded-xl px-3 py-2 text-sm ${k==act?'bg-white/15 font-semibold':'hover:bg-white/10'}">${l}</button>`).join('');
- $('#app').innerHTML=`<div class="md:flex min-h-screen"><aside class="np hidden md:flex w-60 shrink-0 flex-col gap-1 p-4 sticky top-0 h-screen text-slate-200" style="background:#0b1230"><div class="flex items-center gap-3 mb-6"><div class="w-10 h-10 rounded-xl bg-amber-400 grid place-items-center text-lg">📋</div><div><b class="text-sm text-white">E-Supervisi</b><div class="text-[11px] text-amber-300">Pembelajaran Mendalam</div></div></div>${nv}<div class="mt-auto text-xs opacity-80 px-1 pb-2">Masuk sebagai<br><b>${E(ME.nama)}</b><br><i>${RN[ME.role]}</i></div><button onclick="thm()" class="text-left rounded-xl px-3 py-2 text-sm hover:bg-white/10">🌓 Ganti tema</button><button onclick="location.reload()" class="text-left rounded-xl px-3 py-2 text-sm text-rose-300 hover:bg-white/10">⏻ Keluar</button></aside><div class="md:hidden np flex gap-2 p-3 text-white text-sm overflow-x-auto" style="background:#0b1230">${NV().map(([k,l,f])=>`<button onclick="${f}" class="shrink-0 px-2">${l}</button>`).join('')}<button onclick="thm()" class="ml-auto">🌓</button><button onclick="location.reload()">⏻</button></div><main class="flex-1 min-w-0 max-w-4xl mx-auto p-4 md:p-8">${h}</main></div>`}
-const PCOL={'Sangat Baik':'#34d399','Baik':'#60a5fa','Cukup':'#fbbf24','Kurang':'#fb7185'};
-function dash(g,t,an,ns){const v=g.filter(x=>x.v!=null),avg=v.length?v.reduce((a,x)=>a+x.v,0)/v.length:0,mx=v.length?Math.max(...v.map(x=>x.v)):0,ta=[0,1,2].map(i=>{const a=g.map(x=>x.t[i]).filter(z=>z!=null);return a.length?a.reduce((p,q)=>p+q,0)/a.length:0}),dist=Object.keys(PCOL).map(k=>[k,v.filter(x=>PR(x.v)==k).length]),tot=v.length||1;let c=0;const cg=dist.map(([k,n])=>{const s=c/tot*360;c+=n;return `${PCOL[k]} ${s}deg ${c/tot*360}deg`}).join(',');
- return `<div class="card p-5"><div class="flex justify-between items-start"><div><h2 class="font-bold">📊 ${E(t)}</h2><p class="text-xs text-slate-400 mb-4">Rekap nilai hasil supervisi${an?' · identitas guru disamarkan':''}</p></div>${an?'<span class="text-[10px] rounded-full border border-emerald-400/40 text-emerald-300 px-2 py-1">🛡 Nama Disamarkan</span>':''}</div>
- <div class="${ns?'hidden':'grid'} grid-cols-3 gap-3">${[[avg.toFixed(1),'Rata-rata / 100'],[g.length,'Guru disupervisi'],[Math.round(mx),'Nilai tertinggi']].map(([a,b])=>`<div class="card2 text-center py-3"><div class="text-2xl font-bold">${a}</div><div class="text-[11px] text-slate-400">${b}</div></div>`).join('')}</div>
- <div class="card2 mt-3 p-3"><div class="text-xs text-slate-400 mb-2">Nilai Hasil Supervisi per Guru</div><div class="flex items-end gap-2 h-32">${g.map(x=>`<div class="flex-1 flex flex-col items-center justify-end h-full min-w-0" title="${E(x.n)}: ${Math.round(x.v||0)}"><div class="w-full max-w-[38px] rounded-t-lg" style="height:${x.v||0}%;background:${PCOL[PR(x.v||0)]}"></div><div class="text-[10px] text-slate-400 mt-1 truncate w-full text-center">${E(x.n)}</div></div>`).join('')||'<div class="text-xs text-slate-400 m-auto">Belum ada data</div>'}</div></div>
- <div class="grid sm:grid-cols-2 gap-3 mt-3"><div class="card2 p-3"><div class="text-xs text-slate-400 mb-2">Rata-rata per Tahap</div>${['Pra-Observasi','Observasi Kelas','Pasca Supervisi'].map((l,i)=>`<div class="text-[11px] mb-2"><div class="flex justify-between"><span class="text-slate-400">${l}</span><b>${ta[i].toFixed(1)}</b></div><div class="h-1.5 bg-white/10 rounded-full"><div class="h-1.5 rounded-full bg-indigo-400" style="width:${ta[i]}%"></div></div></div>`).join('')}</div>
- <div class="card2 p-3"><div class="text-xs text-slate-400 mb-2">Distribusi Predikat</div><div class="flex items-center gap-3"><div class="w-20 h-20 rounded-full shrink-0" style="background:conic-gradient(${v.length?cg:'#334155 0deg 360deg'});-webkit-mask:radial-gradient(circle 22px,transparent 97%,#000 100%);mask:radial-gradient(circle 22px,transparent 97%,#000 100%)"></div><div class="text-[11px] space-y-1 flex-1">${dist.map(([k,n])=>`<div class="flex gap-2 items-center"><i class="w-2 h-2 rounded-full" style="background:${PCOL[k]}"></i>${k}<b class="ml-auto">${n}</b></div>`).join('')}</div></div></div></div></div>`}
-const PW=()=>{const e=$('#lp');e.type=e.type=='password'?'text':'password'};
-const login=B(async()=>{document.body.className='dk';
- $('#app').innerHTML=`<div class="min-h-screen grid place-items-center p-4"><div class="grid lg:grid-cols-2 gap-6 w-full max-w-5xl items-center"><div class="hidden lg:block"><div id="pd">${dash([],'Hasil Supervisi Guru',1)}</div></div><div class="lc rounded-3xl p-8 shadow-2xl w-full max-w-md mx-auto"><div class="text-3xl mb-1">📋</div><h1 class="text-2xl font-bold">Selamat Datang</h1><p class="text-sm mb-5" style="color:#64748b">Masuk ke akun E-Supervisi Anda untuk melanjutkan</p><label class="text-xs font-semibold">USERNAME</label><input id="lu" class="in mt-1" placeholder="contoh: guru" autocomplete="username"><label class="text-xs font-semibold mt-3 block">PASSWORD</label><div class="relative"><input id="lp" type="password" class="in mt-1 pr-10" placeholder="••••••••" autocomplete="current-password"><button type="button" class="absolute right-3 top-3.5 text-sm" onclick="PW()">👁</button></div><button id="lb" class="btn w-full mt-5 py-3">Masuk</button><p class="text-[11px] mt-4 text-center" style="color:#64748b">Lupa password? Hubungi admin/pengawas.</p></div></div></div>`;
- const go=B(async()=>{const r=await rpc('login',{u:$('#lu').value.trim(),pw:$('#lp').value});TK=r.tk;ME=r.me;document.body.className=TH?'dk':'';INS=r.ins;MJ=r.mj;if(r.us)UC=r.us;HC=r.h;HC?homeR(HC):home()});$('#lb').onclick=go;$('#lp').onkeydown=e=>{if(e.key=='Enter')go()};rpc('pub',{},1).then(g=>{const p=$('#pd');if(p)p.innerHTML=dash(g,'Hasil Supervisi Guru',1)}).catch(()=>{})});
-const nx=B(async()=>{const o=['pra','obs','pasca'],k=o.indexOf(TAB);if(ed()){collect();persist(TAB).catch(e=>toast('⚠ '+e))}if(k<2){TAB=o[k+1];view()}else{TAB='hub';view()}});
-const homeR=D=>{const l=D;TAB='';const v=D.filter(x=>x.v!=null),avg=v.length?v.reduce((a,x)=>a+x.v,0)/v.length:0,ym=new Date().toISOString().slice(0,7);
- shell(`<h1 class="text-2xl font-bold">${HL[ME.role]}</h1><p class="text-sm text-slate-500 mb-5">Rekap nilai &amp; instrumen digital supervisi pembelajaran mendalam</p>
- <div class="grid grid-cols-2 lg:grid-cols-4 gap-3">${[['Total supervisi',l.length,'📋'],['Sekolah tersupervisi',new Set(l.map(x=>x.sek)).size,'🏫'],['Rata-rata nilai',v.length?avg.toFixed(1):'-','📈'],['Bulan ini',l.filter(x=>x.tgl.startsWith(ym)).length,'🗓']].map(([a,b,c])=>`<div class="card p-4"><div class="text-xs text-slate-500">${c} ${a}</div><div class="text-2xl font-bold mt-1">${b}</div></div>`).join('')}</div>
- <div class="mt-4">${dash(D,'Ringkasan Nilai',0,1)}</div>
- <div class="flex items-center justify-between mt-6 mb-2 gap-2 flex-wrap"><h2 class="font-bold">Daftar Supervisi</h2><div class="flex gap-2"><input class="in !w-48" placeholder="🔍 Cari guru/sekolah" oninput="fl(this.value)">${ed()?'<button class="btn" onclick="newSv()">＋ Supervisi Baru</button>':''}</div></div>
- <div class="card overflow-x-auto"><table class="w-full text-sm"><thead class="text-left text-xs text-slate-500"><tr><th class="p-3">Guru</th><th>Sekolah</th><th>Tanggal</th><th>Tahap</th><th>Nilai</th><th></th></tr></thead><tbody id="tb">${l.map((x,k)=>{const n=x.v;return `<tr class="border-t"><td class="p-3 font-medium">${E(x.gn)}</td><td>${E(x.sek)}</td><td>${E(x.tgl)}</td><td>${['Pra','Obs','Pasca'].map((s,j)=>`<span class="text-[11px] rounded-full px-2 py-0.5 mr-1 ${x.st[j]?'bg-emerald-100 text-emerald-700':'bg-slate-100 text-slate-400'}">${s}</span>`).join('')}</td><td>${n==null?'-':`<b>${n.toFixed(1)}</b> <span class="text-xs" style="color:${PCOL[PR(n)]}">${PR(n)}</span>`}</td><td class="text-right pr-3 whitespace-nowrap"><button class="text-indigo-600 font-medium" onclick="op('${x.id}')">${ed()?'Isi / Buka':'Lihat'}</button>${ME.role=='admin'?` <button class="text-red-500 ml-2" onclick="dl('${x.id}')">🗑</button>`:''}</td></tr>`}).join('')||'<tr><td colspan=6 class="p-8 text-center text-slate-400">Belum ada data supervisi</td></tr>'}</tbody></table></div>`,'h')};
-const home=B(async()=>{if(HC)homeR(HC);else shell('<div class="card p-10 text-center text-slate-400">⏳ Memuat data…</div>','h');HC=await rpc('home');homeR(HC)});
-const fl=q=>document.querySelectorAll('#tb tr').forEach(r=>r.style.display=r.textContent.toLowerCase().includes(q.toLowerCase())?'':'none');
-const newSv=B(async()=>{const g=(UC=UC||await rpc('users')).filter(x=>x.role=='guru');MJ=MJ||await rpc('pilihan');const sm=new Date().getMonth()>=6?'Ganjil':'Genap',op_=a=>a.length?a.map(v=>`<option>${E(v)}</option>`).join(''):'<option value="">(isi dulu sheet Pilihan)</option>';
- shell(`<button class="text-indigo-600 text-sm" onclick="home()">← Kembali</button><div class="card p-6 mt-3 max-w-2xl"><h2 class="text-lg font-bold">Supervisi Baru</h2><p class="text-sm text-slate-500 mb-4">Pilih guru, mata pelajaran, dan kelas. Data identitas terisi otomatis.</p><div class="text-xs font-medium">Guru</div><input class="in mt-1 mb-2" placeholder="🔍 Ketik untuk mencari guru…" oninput="sg(this.value)"><select id="ng" class="in">${g.map(x=>`<option value="${E(x.u)}">${E(x.nama)} — ${E(x.sek)}</option>`).join('')||'<option value="">(belum ada guru — tambah di menu Pengguna)</option>'}</select><div class="grid md:grid-cols-2 gap-3 mt-3"><label class="text-xs font-medium block">Mata Pelajaran<select id="nm" class="in mt-1">${op_(MJ.mapel)}</select></label><label class="text-xs font-medium block">Kelas<select id="nk" class="in mt-1">${op_(MJ.kelas)}</select></label></div><div class="grid md:grid-cols-2 gap-3 mt-3"><label class="text-xs font-medium block">Semester<select id="ns" class="in mt-1">${['Ganjil','Genap'].map(v=>`<option ${v==sm?'selected':''}>${v}</option>`).join('')}</select></label><label class="text-xs font-medium block">Tanggal Supervisi<input id="nt" type="date" class="in mt-1" value="${new Date().toISOString().slice(0,10)}"></label></div><button class="btn w-full mt-5 py-3" onclick="mk()">Lanjut →</button></div>`,'n');window.GL=g});
-function hub(){const id=CUR.ident;
- shell(`<button class="text-indigo-600 text-sm" onclick="home()">← Daftar supervisi</button>${stepper()}<div class="card p-4 flex items-center gap-3"><div class="w-11 h-11 rounded-xl bg-indigo-600 text-white grid place-items-center">🏫</div><div class="flex-1 text-sm"><b>${E(id.sek)}</b><div class="text-slate-500 text-xs">${E(id.guru)} · ${E(id.mapel)} · ${E(id.kelas)} · ${E(id.tgl)}</div></div>${ed()?'<button class="btn !bg-slate-600" onclick="TAB=\'id\';view()">Ubah</button>':''}</div>
- <h2 class="font-bold mt-5 mb-2">Pilih Jenis Instrumen</h2><div class="grid md:grid-cols-3 gap-3">${[['pra','📝','Pra Observasi','Telaah RPP/RPM'],['obs','👀','Observasi','Pembelajaran di kelas'],['pasca','📊','Pasca Supervisi','Refleksi, RTL &amp; monitoring']].map(([k,ic,l,d])=>{const I=INS[k],x=CUR[k]||{d:{}},T=I.secs.filter(s=>s.type=='score').reduce((p,s)=>{const q=stat(s.items,x.d[s.k]||{});return[p[0]+q.got,p[1]+q.n,p[2]+q.sum]},[0,0,0]),pc=T[1]?Math.round(T[0]/T[1]*100):0;return `<button onclick="tab('${k}')" class="card p-5 text-left hover:shadow-lg transition"><div class="text-2xl">${ic}</div><div class="font-bold mt-2">${l}</div><div class="text-xs text-slate-500">${d}</div><div class="text-[11px] mt-2 inline-block rounded-full bg-indigo-100 text-indigo-700 px-2 py-0.5">${T[1]} indikator · skor 1–4</div><div class="h-1.5 bg-slate-200 rounded-full mt-3"><div class="h-1.5 rounded-full bg-emerald-500" style="width:${pc}%"></div></div><div class="text-xs mt-1 text-slate-500">${T[0]}/${T[1]} terisi (${pc}%)${T[0]?` · nilai ${(T[2]/(T[1]*4)*100).toFixed(1)}`:''}</div></button>`}).join('')}</div>`,'k')}
-const sg=q=>{const f=(window.GL||[]).filter(x=>(x.nama+' '+x.sek).toLowerCase().includes(q.toLowerCase()));$('#ng').innerHTML=f.map(x=>`<option value="${E(x.u)}">${E(x.nama)} — ${E(x.sek)}</option>`).join('')||'<option value="">(guru tidak ditemukan)</option>'};
-const mk=B(async()=>{const id=await rpc('create',{guru:$('#ng').value,tgl:$('#nt').value,mapel:$('#nm').value,kelas:$('#nk').value,sem:$('#ns').value});op(id)});
-const dl=B(async id=>{if(confirm('Hapus data supervisi ini?')){await rpc('del',{id});HC=null;home()}});
-const op=B(async id=>{const mn=$('main');if(mn)mn.innerHTML='<div class="card p-10 text-center text-slate-400">⏳ Membuka data supervisi…</div>';try{CUR=await rpc('get',{id})}catch(e){home();throw e}for(const k in DT)DT[k]=0;TAB=CUR.ident?'hub':'id';view()});
-function setv(e){const x=CUR[TAB];if(e.dataset.m){x.m[e.dataset.m]=e.value;return}const k=e.dataset.k;if(!k)return;const i=e.dataset.i,o=x.d[k]=x.d[k]||{};let it=o[i];if(e.type=='radio'){if(e.checked){it=o[i]=o[i]||{v:[]};it.s=+e.value}}else if(e.value||(it&&it.v[e.dataset.j]!=null)){it=o[i]=o[i]||{v:[]};it.v[e.dataset.j]=e.value}}
-const DT={};const persist=t=>{if(!DT[t])return Promise.resolve();DT[t]=0;const d=CUR[t],id=CUR.id;return rpc('save',{id,t,data:d},1).then(()=>rpc('sync',{id,t,data:d},1)).catch(e=>{DT[t]=1;throw e})};
-function collect(){const x=CUR[TAB];document.querySelectorAll('[data-m]').forEach(e=>x.m[e.dataset.m]=e.value);
- document.querySelectorAll('[data-k]').forEach(e=>{const k=e.dataset.k,i=e.dataset.i,o=x.d[k]=x.d[k]||{};let it=o[i];
-  if(e.type=='radio'){if(e.checked){it=o[i]=o[i]||{v:[]};it.s=+e.value}}else if(e.value||(it&&it.v[e.dataset.j]!=null)){it=o[i]=o[i]||{v:[]};it.v[e.dataset.j]=e.value}})}
-const PR=n=>n>=91?'Sangat Baik':n>=81?'Baik':n>=71?'Cukup':'Kurang',KT=a=>a>=3.5?'Sangat baik':a>=2.5?'Baik':a>=1.5?'Mulai berkembang':'Belum terlihat';
-function stat(items,d,f){const a=items.map((it,i)=>[it,(d[i]||{}).s]).filter(z=>!f||f(z[0])),g=a.filter(z=>z[1]),sum=g.reduce((p,z)=>p+z[1],0);return{n:a.length,got:g.length,sum,avg:g.length?sum/g.length:0,nil:a.length?sum/(a.length*4)*100:0}}
-function rk(){const I=INS[TAB],x=CUR[TAB],rows=[],av=[];
- I.secs.filter(s=>s.type=='score').forEach(s=>{const d=x.d[s.k]||{},T=stat(s.items,d);av.push(T.avg);
-  const row=(l,S,b)=>`<tr class="border-t ${b?'font-semibold':'text-slate-600'}"><td class="p-1 ${b?'':'pl-5'}">${E(l)}</td><td>${S.got}/${S.n}</td><td>${S.sum}</td><td>${S.avg.toFixed(2)}</td><td>${S.nil.toFixed(1)}</td><td>${I.avg?KT(S.avg):PR(S.nil)}</td></tr>`;
-  rows.push(row(s.title,T,1));
-  ['g','d'].forEach(k=>{const c={};s.items.forEach(i=>i[k]&&(c[i[k]]=(c[i[k]]||0)+1));Object.keys(c).filter(v=>k=='g'?Object.keys(c).length>1:c[v]>=4).forEach(v=>rows.push(row(v,stat(s.items,d,i=>i[k]==v))))})});
- if(I.avg){const m=av.reduce((a,b)=>a+b,0)/(av.length||1);rows.push(`<tr class="border-t-2 font-bold"><td class="p-1">Rata-rata Keseluruhan</td><td></td><td></td><td>${m.toFixed(2)}</td><td></td><td>${KT(m)}</td></tr>`)}
- PG(I,x);$('#rk').innerHTML=`<h3 class="font-semibold text-indigo-800 mb-2">Rekapitulasi Otomatis</h3><table class="w-full text-sm"><thead class="text-left text-xs text-slate-500"><tr><th>Komponen</th><th>Terisi</th><th>Skor</th><th>Rata-rata</th><th>Nilai (0–100)</th><th>Predikat</th></tr></thead><tbody>${rows.join('')}</tbody></table>`}
-const IDF=[['sek','Nama Sekolah / Satuan Pendidikan',1],['guru','Nama Guru',1],['mapel','Mata Pelajaran',1],['kelas','Kelas / Fase',1],['sem','Semester',1],['tgl','Hari / Tanggal Observasi',1,1],['kons','Konsentrasi Keahlian'],['topik','Judul / Topik Pembelajaran'],['tp','Tujuan Pembelajaran'],['ks','Kepala Sekolah'],['obs','Observer / Pengawas',1]];
-const OK=()=>CUR.ident&&IDF.every(f=>!f[2]||CUR.ident[f[0]]);
-const PC=['peer-checked:bg-rose-500 peer-checked:border-rose-500','peer-checked:bg-amber-500 peer-checked:border-amber-500','peer-checked:bg-sky-500 peer-checked:border-sky-500','peer-checked:bg-emerald-500 peer-checked:border-emerald-500'];
-const PG=(I,x)=>{const a=I.secs.filter(s=>s.type=='score').reduce((p,s)=>[p[0]+stat(s.items,x.d[s.k]||{}).got,p[1]+s.items.length],[0,0]);$('#pg').style.width=(a[1]?a[0]/a[1]*100:0)+'%';$('#pt').textContent=a[0]+'/'+a[1]+' indikator terisi'};
-const stepper=()=>`<div class="grid grid-cols-2 md:grid-cols-4 gap-2 my-4 np">${[['id','Data Identitas'],['pra','Pra Observasi'],['obs','Observasi'],['pasca','Pasca Supervisi']].map(([k,l],i)=>{const lock=k!='id'&&!OK();return `<button ${lock?'disabled':''} onclick="tab('${k}')" class="rounded-2xl p-3 text-left border transition ${k==TAB?'bg-indigo-600 text-white shadow-lg border-indigo-600':lock?'bg-slate-100 text-slate-400 border-slate-200':'bg-white hover:border-indigo-400'}"><div class="text-[11px] opacity-70">Langkah ${i+1}</div><div class="text-sm font-semibold">${lock?'🔒 ':''}${l}</div></button>`}).join('')}</div>`;
-function viewId(){const d=CUR.ident||{sek:CUR.sek,guru:CUR.gn,obs:CUR.peng,tgl:CUR.tgl},dis=ed()?'':'disabled';
- shell(`<button class="text-indigo-600 text-sm np" onclick="TAB='hub';view()">← Semua instrumen</button>${stepper()}<div class="bg-white rounded-3xl shadow-sm p-6 border border-slate-100"><h2 class="text-lg font-bold">Data Identitas Supervisi</h2><p class="text-sm text-slate-500 mb-4">Lengkapi kolom bertanda <span class="text-rose-500">*</span> agar Pra Observasi, Observasi, dan Pasca Supervisi terbuka. Data ini otomatis terisi di ketiga instrumen.</p><div class="grid md:grid-cols-2 gap-4">${IDF.map(([k,l,r,dt])=>`<label class="text-xs font-medium text-slate-600">${l}${r?' <span class="text-rose-500">*</span>':''}<input data-id="${k}" class="in mt-1" ${dt?'type=date':''} value="${E(d[k])}" ${dis}></label>`).join('')}</div>${ed()?'<button class="btn mt-6 px-6 py-3" onclick="sid()">Simpan &amp; Lanjut →</button>':'<p class="text-sm text-amber-600 mt-4">Data identitas belum dilengkapi pengawas.</p>'}</div>`)}
-const sid=B(async()=>{const d={};document.querySelectorAll('[data-id]').forEach(e=>d[e.dataset.id]=e.value.trim());const m=IDF.find(f=>f[2]&&!d[f[0]]);if(m){toast('Lengkapi dulu: '+m[1]);return}await rpc('saveIdent',{id:CUR.id,data:d});CUR.ident=d;TAB='hub';view()});
-const GH=(s,g)=>`<details class="grp mt-3" data-s="${s.k}"><summary class="gh font-semibold text-sm text-indigo-800 bg-indigo-50 rounded-2xl px-3 py-2 flex items-center gap-2 select-none"><span class="chv">▸</span><span class="flex-1">${E(g)}</span><span class="gb text-[11px] font-semibold rounded-full px-2 py-0.5 bg-white"></span></summary><div>`,
-GO=l=>l?'<div class="np flex justify-end mt-3"><button type="button" class="btn !py-1.5 !text-xs" onclick="gn(this)">Bagian berikutnya ↓</button></div></div></details>':'',
-GL_=()=>[...document.querySelectorAll('#f details.grp')],
-gAll=v=>GL_().forEach(d=>d.open=!!v),
-gc=d=>[d.querySelectorAll('[data-card]').length,d.querySelectorAll('[data-card].border-l-emerald-400').length],
-gu=()=>GL_().forEach(d=>{const[n,g]=gc(d),b=d.querySelector('.gb');b.textContent=(g==n?'✓ ':'')+g+'/'+n;b.style.color=g==n?'#059669':''}),
-gI=()=>{const seen={};GL_().forEach(d=>{const s=d.dataset.s,[n,g]=gc(d);if(!seen[s]&&g<n){d.open=true;seen[s]=1}})},
-gn=b=>{const d=b.closest('details'),l=GL_(),n=l[l.indexOf(d)+1];d.open=false;if(n){n.open=true;n.scrollIntoView({behavior:'smooth',block:'start'})}else($('#rk')||d).scrollIntoView({behavior:'smooth',block:'start'})};
-window.onbeforeprint=()=>gAll(1);
-function view(){if(TAB!='id'&&!OK())TAB='id';if(TAB=='id')return viewId();if(TAB=='hub')return hub();
- const t=TAB,I=INS[t],dis=ed()?'':'disabled',x=CUR[t]=CUR[t]||{m:{},d:{}},id=CUR.ident;Object.assign(x.m,id);x.m.peng=x.m.peng||id.obs;
- const ex=I.meta.filter(([k])=>!IDF.some(f=>f[0]==k));
- const secs=I.secs.map(s=>{let last='';const sc=s.type=='score',g=stat(s.items,x.d[s.k]||{});
-  return `<h3 class="text-base font-bold mt-8 mb-2 flex items-center gap-2">${E(s.title)}${sc?`<span class="text-xs font-normal bg-slate-200 rounded-full px-2 py-0.5">${g.got}/${g.n}</span>`:''}</h3>`+s.items.map((it,i)=>{const v=(x.d[s.k]||{})[i]||{v:[]},h=it.g&&it.g!=last?(GO(last)+GH(s,last=it.g)):'';
-  const ta=s.cols.map((c,j)=>sc&&!j?'':`<label class="text-[11px] font-medium text-slate-500">${E(c)}<textarea rows=2 class="in mt-1" data-k="${s.k}" data-i="${i}" data-j="${j}" ${dis}>${E(v.v[j]||'')}</textarea></label>`).join(''),gr=`<div class="grid ${s.cols.length>2?'md:grid-cols-3':s.cols.length>1?'md:grid-cols-2':''} gap-2 mt-2">${ta}</div>`;
-  return h+`<div data-card class="bg-white rounded-2xl border border-slate-100 border-l-4 ${v.s?'border-l-emerald-400':'border-l-transparent'} shadow-sm p-4 mt-2"><div class="flex gap-3"><span class="grid place-items-center w-7 h-7 shrink-0 rounded-full bg-indigo-100 text-indigo-700 text-xs font-bold">${i+1}</span><div class="text-sm leading-relaxed">${it.d?`<span class="text-[10px] bg-violet-100 text-violet-700 rounded px-1.5 py-0.5 mr-1">${E(it.d)}</span>`:''}${E(it.t)}${it.x?`<div class="text-xs text-slate-400 mt-0.5">${E(it.x)}</div>`:''}</div></div>`
-  +(sc?`<div class="flex gap-2 mt-3 flex-wrap items-center">${[1,2,3,4].map(n=>`<label class="cursor-pointer"><input type=radio class="peer hidden" name="${s.k}_${i}" data-k="${s.k}" data-i="${i}" value="${n}" ${v.s==n?'checked':''} ${dis}><span class="block w-12 text-center py-2 rounded-2xl border text-sm font-bold text-slate-300 peer-checked:text-white ${PC[n-1]}">${n}</span></label>`).join('')}<input class="in flex-1 min-w-[12rem]" placeholder="${E(s.cols[0])} (opsional)" data-k="${s.k}" data-i="${i}" data-j="0" value="${E(v.v[0]||'')}" ${dis}></div>${s.cols.length>1?`<details class="mt-2" ${v.v.slice(1).some(Boolean)?'open':''}><summary class="text-xs text-indigo-600 cursor-pointer select-none">+ Catatan lain (${s.cols.slice(1).join(', ')})</summary>${gr}</details>`:''}`:gr)+'</div>'}).join('')+GO(last)}).join('');
- shell(`<button class="text-indigo-600 text-sm np" onclick="TAB='hub';view()">← Semua instrumen</button>${stepper()}
- <div class="sticky top-0 z-10 -mx-4 px-4 py-3 bg-slate-100/90 backdrop-blur np"><div class="flex justify-between text-xs text-slate-600 mb-1"><b>${E(I.title)}</b><span id="pt"></span></div><div class="h-2 bg-slate-200 rounded-full"><div id="pg" class="h-2 bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full transition-all" style="width:0"></div></div></div>
- <div id="f"><div class="bg-white rounded-2xl border shadow-sm p-4 mb-2 text-sm"><b>${E(id.guru)}</b> · ${E(id.sek)} · ${E(id.mapel)} · ${E(id.kelas)} · ${E(id.tgl)} <button class="text-indigo-600 text-xs ml-2 np" onclick="TAB='id';view()">ubah</button><div class="flex gap-2 flex-wrap mt-2 text-[11px]">${['Belum tampak / tidak ada','Sebagian / mulai','Baik / jelas','Utuh / sangat baik'].map((l,k)=>`<span class="rounded-full px-2 py-0.5 text-white ${['bg-rose-500','bg-amber-500','bg-sky-500','bg-emerald-500'][k]}">${k+1} = ${l}</span>`).join('')}</div><p class="text-xs text-slate-400 mt-2">💡 Klik angka 1–4 pada tiap kartu. Tulis bukti singkat di sebelah angka bila perlu. Klik “Lanjut” atau pindah langkah untuk menyimpan otomatis.</p><div class="flex gap-4 mt-2 np"><button type="button" class="text-xs text-indigo-600 font-medium" onclick="gAll(1)">▾ Buka semua bagian</button><button type="button" class="text-xs text-indigo-600 font-medium" onclick="gAll(0)">▸ Tutup semua bagian</button></div>
- ${ex.length?`<div class="grid md:grid-cols-3 gap-3 mt-3">${ex.map(([k,l,o])=>`<label class="text-xs font-medium text-slate-600">${E(l)}${Array.isArray(o)?`<select data-m="${k}" class="in mt-1" ${dis}>${o.map(v=>`<option ${x.m[k]==v?'selected':''}>${E(v)}</option>`).join('')}</select>`:`<input data-m="${k}" class="in mt-1" ${o=='date'?'type=date':''} value="${E(x.m[k])}" ${dis}>`}</label>`).join('')}</div>`:''}</div>
- ${secs}<div id="rk" class="bg-white rounded-2xl border shadow-sm mt-8 p-4 overflow-x-auto"></div></div>
- <div class="fixed bottom-0 inset-x-0 md:left-60 bg-white/90 backdrop-blur border-t p-3 flex gap-2 justify-center np">${ed()?'<button class="btn" onclick="sv()">💾 Simpan</button>':''}<button class="btn !bg-slate-600" onclick="collect();gAll(1);window.print()">🖨 Cetak</button><button class="btn !bg-emerald-600" onclick="nx()">${TAB=='pasca'?'Selesai ✓':'Lanjut ➜'}</button></div><div class="h-16"></div>`);
- $('#f').oninput=e=>{DT[TAB]=1;setv(e.target);clearTimeout(RT);RT=setTimeout(rk,300);const c=e.target.closest('[data-card]');if(c&&e.target.type=='radio'){c.classList.remove('border-l-transparent');c.classList.add('border-l-emerald-400');gu()}};rk();gu();gI()}
-const tab=B(async k=>{if(ed()&&TAB!='id'&&TAB!='hub'){collect();persist(TAB).catch(e=>toast('⚠ '+e))}TAB=k;view()});
-const sv=B(async()=>{collect();const t=TAB,d=CUR[t],id=CUR.id;await rpc('save',{id,t,data:d});toast('Tersimpan ✓');rpc('sync',{id,t,data:d},1).catch(()=>{})});
-const users=B(async()=>{const l=await rpc('users');window.UL=l;UC=l;
- shell(`<h2 class="text-xl font-bold mb-3">Manajemen Pengguna</h2><div class="bg-white rounded-2xl shadow-sm p-4 mb-4 grid md:grid-cols-6 gap-2 items-end"><input id="uu" class="in" placeholder="Username"><input id="un" class="in" placeholder="Nama lengkap"><select id="ur" class="in">${Object.keys(RN).map(r=>`<option value="${r}">${RN[r]}</option>`).join('')}</select><input id="us" class="in" placeholder="Sekolah/Instansi"><input id="up" type="password" class="in" placeholder="Password (kosong = tetap)"><button class="btn" onclick="us_()">Simpan</button></div>
- <div class="bg-white rounded-2xl shadow-sm overflow-x-auto"><table class="w-full text-sm"><thead class="bg-slate-50 text-left"><tr><th class="p-3">Username</th><th>Nama</th><th>Role</th><th>Sekolah</th><th></th></tr></thead><tbody>${l.map((x,i)=>`<tr class="border-t"><td class="p-3">${E(x.u)}</td><td>${E(x.nama)}</td><td>${RN[x.role]}</td><td>${E(x.sek)}</td><td class="text-right pr-3"><button class="text-indigo-600" onclick="ue(${i})">Ubah</button> <button class="text-red-600 ml-2" onclick="ud('${E(x.u)}')">Hapus</button></td></tr>`).join('')}</tbody></table></div>`)});
-const ue=i=>{const x=UL[i];$('#uu').value=x.u;$('#un').value=x.nama;$('#ur').value=x.role;$('#us').value=x.sek};
-const us_=B(async()=>{await rpc('userSave',{u:$('#uu').value.trim(),nama:$('#un').value,role:$('#ur').value,sek:$('#us').value,pw:$('#up').value});toast('Tersimpan ✓');users()});
-const ud=B(async u=>{if(confirm('Hapus pengguna '+u+'?')){await rpc('userDel',{u});users()}});
-login();
-</script></body></html>
+        // ⚠️ GANTI DENGAN LINK EXEC APPS SCRIPT APLIKASI INVENTARIS INI
+        // (setelah dibuat di Full Gas / GAS Builder, lalu Deploy > Manage deployments)
+        const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzvz9irYp2Nwro1kPcOAuRvqQBLMeSjx5wZHwRIIWI7KmcV8mfkk2w2bwKlF4Elx6sX/exec";
+
+        const LINK_AKHIR = GOOGLE_SCRIPT_URL + URL_PARAMETER;
+
+        document.write('<iframe id="app-frame" src="' + LINK_AKHIR + '" allow="clipboard-read; clipboard-write; geolocation *"></iframe>');
+    </script>
+</body>
+</html>
